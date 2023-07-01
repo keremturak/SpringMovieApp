@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/MovieApp2"
+    username: "postgres"
+    password: "23061995"
+    driver-class-name: "org.postgresql.Driver"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

@@ -1,0 +1,7 @@
+//Save
+
+GET http://localhost:8080/user/create
+
+//findAll
+
+GET http://localhost:8080/user/findall
